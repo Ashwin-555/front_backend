@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IgrisGPT</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1>IgrisGPT</h1>
+    </header>
+
+    <div class="container">
+        <!-- Sidebar with Chat History -->
+        <aside class="sidebar">
+            <h2>Chat History</h2>
+            <ul id="chat-history" class="scrollable"></ul>
+
+            <!-- Drop-up Menu for Chapters -->
+            <div class="dropup">
+                <button id="chapters-btn">List of Chapters ⬆</button>
+                <ul id="chapters-menu" class="hidden"></ul>
+            </div>
+        </aside>
+
+        <!-- Chat Area -->
+        <main class="chatbox">
+            <div id="messages" class="scrollable"></div>
+            <div class="input-area">
+                <input type="text" id="user-input" placeholder="Send a message...">
+                <button id="send-btn">Send</button>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
