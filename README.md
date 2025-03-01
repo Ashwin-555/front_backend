@@ -1,0 +1,1 @@
+This project composed of both front-end and back-end of the personalized AI tutor website. I have used technologies like HTML,CSS, Javascript for front-end and Flask and FastAPI for backend. This project is part of HackIndia 2025 hackathon
